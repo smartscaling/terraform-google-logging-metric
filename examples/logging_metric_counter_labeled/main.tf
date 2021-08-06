@@ -1,5 +1,5 @@
 module logging_metric_counter {
-  source = "../../"
+  source = "smartscaling/logging-metric/google"
   name   = "dummy-metric"
   filter = "resource.type=gae_app AND severity>=ERROR"
 
